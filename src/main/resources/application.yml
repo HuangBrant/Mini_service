@@ -1,0 +1,13 @@
+server:
+  port: 5000
+  servlet:
+    context-path: /mini/
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.79.20.100:3306/brant?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&useAffectedRows=true&allowMultiQueries=true
+    username: huangjiaji
+    password: huangjiaji
+    hikari:
+      max-lifetime: 600000
